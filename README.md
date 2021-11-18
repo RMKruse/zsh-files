@@ -5,6 +5,7 @@ yeah-jo-my-zsh!
 ## Setup / Installation
 
 Falls Default des Systems =/= ZSH (debian, ubuntu, ...)
+Und falls zshsetup nicht ausführbar:
 
 ```
 chmod 755 zshsetup.sh
@@ -20,12 +21,12 @@ chmod 755 zshsetup.sh
 
 #### Unter Debian/Ubuntu
 ```bash
-sudo apt install zsh-syntax-highlighting zsh-autosuggestions autojump
+sudo apt install autojump
 ```
 
 #### Unter MacOS
 ```zsh
-sudo brew install zsh-syntax-highlighting zsh-autosuggestions autojump
+sudo brew autojump
 ```
 
 ## Wechsel auf ZSH
